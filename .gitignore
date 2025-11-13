@@ -1,0 +1,28 @@
+# Игнорировать папки Anaconda/Conda
+.anaconda/
+.conda/
+.condarc
+.continuum/
+
+# Игнорировать служебные каталоги Jupyter
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+
+# Игнорировать IDE и редакторы
+.vscode/
+
+# Игнорировать системные папки Windows
+AppData/
+Downloads/
+Documents/
+Music/
+Pictures/
+Videos/
+
+# Файлы временных данных и логи
+*.log
+
+# Игнорировать файлы swap и temporary редакторов
+*.swp
+*.tmp
